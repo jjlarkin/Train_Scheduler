@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Train Schedule</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- jquery -->
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
+    <!-- moment.js -->
+    <script src='https://momentjs.com/downloads/moment.js'></script>
+
+    <style type="text/css">
+        .welcomdiv {
+            border-width: 5px;
+            border-style: solid;
+            border-color: black;
+        }
+
+        .headerdiv {
+            height: 75px;
+        }
+
+        #train-display {
+            background-color: #0288D1
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="jumbotron welcomediv">
+        <h1>Train Schedule</h1>
+        <p></p>
+    </div>
+    <!-- put eployee data from database here -->
+    <div class=“panel panel-default” id="train-display">
+        <div class='well headerdiv'>
+            <span class='col-xs-3'><h3>Train Name</h3></span>
+            <span class='col-xs-2'><h3>Destination</h3></span>
+            <span class='col-xs-2'><h3>First Train</h3></span>
+            <span class='col-xs-2'><h3>Frequency</h3></span>
+        </div>
+    </div>
+
+    <br>
+    <div class=“ container” id=“trainForm”></div>
+    <div class=“col-lg-6”>
+        <div class=“panel panel-default”>
+            <div class=“panel-heading”>
+                <h3 class=“panel-title”>Train Schedule</h3>
+            </div>
+            <div class=“panel-body”>
+                <div class="panel-body">
+                    <!-- Sign-up Form (note the various input "types")-->
+                    <form destination="form">
+                        <div class="form-group">
+                            <label for="train-input">Train Name:</label>
+                            <input class="form-control" id="train-input" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="destination-input">destination:</label>
+                            <input class="form-control" id="destination-input" type="text">
+                        </div>
+                        <!--                             <div class="form-group">
+                                                        <label for="start-date-input">Start Date:</label>
+                                                        <input class="form-control" id="start-date-input" type="date">
+                                                    </div> -->
+                        <div class="form-group">
+                            <label for="frequency-input">Frequency:</label>
+                            <input class="form-control" id="frequency-input" type="number">
+                        </div>
+                        <button class="btn btn-default" id="add-train" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script  src="assets/js.js" type="text/javascript">
+
+</script>
+
+</body>
+
+</html>
