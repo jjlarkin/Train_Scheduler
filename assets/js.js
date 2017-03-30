@@ -54,15 +54,7 @@ console.log(moment(firstTrain).format("HH"));
 
 database.ref().on("child_added", function(childSnapshot) {
 
-    // Log everything that's coming out of snapshot
-    // console.log(childSnapshot.val().name);
-    // console.log(childSnapshot.val().name);
-    // console.log(childSnapshot.val().email);
-    // console.log(childSnapshot.val().age);
-    // console.log(childSnapshot.val().comment);
-    // console.log(childSnapshot.val().joinDate);
-
-    // full list of items to the well
+    
 
 
     $("#train-display").append("<div class='well'><span id='train' class='col-xs-3'> " + childSnapshot.val().train +
