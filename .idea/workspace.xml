@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c422cfeb-ce76-4c15-98b6-668c12e538fd" name="Default" comment="" />
+    <list default="true" id="c422cfeb-ce76-4c15-98b6-668c12e538fd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TrainSchedule.html" afterPath="$PROJECT_DIR$/TrainSchedule.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js.js" afterPath="$PROJECT_DIR$/assets/js.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,21 +21,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TrainSchedule.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TrainSchedule.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TrainSchedule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="81" column="69" lean-forward="false" selection-start-line="81" selection-start-column="69" selection-end-line="81" selection-end-column="69" />
+            <state relative-caret-position="102">
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+            <state relative-caret-position="260">
+              <caret line="34" column="80" lean-forward="true" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -53,9 +56,12 @@
       <find>employee</find>
       <find>role</find>
       <find>date</find>
-      <find>monthly</find>
       <find>firstTrain</find>
       <find>monthlyRate</find>
+      <find>user</find>
+      <find>monthly</find>
+      <find>-display</find>
+      <find>name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,12 +207,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490831232140</updated>
-      <workItem from="1490831233499" duration="3885000" />
+      <workItem from="1490831233499" duration="7605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3885000" />
+    <option name="totallyTimeSpent" value="7605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="27" width="1377" height="663" extended-state="0" />
@@ -241,18 +247,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TrainSchedule.html">
+    <entry file="file://$PROJECT_DIR$/assets/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="81" column="69" lean-forward="false" selection-start-line="81" selection-start-column="69" selection-end-line="81" selection-end-column="69" />
+        <state relative-caret-position="260">
+          <caret line="34" column="80" lean-forward="true" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js.js">
+    <entry file="file://$PROJECT_DIR$/TrainSchedule.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        <state relative-caret-position="102">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
